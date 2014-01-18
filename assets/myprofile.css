@@ -1,0 +1,651 @@
+body
+{
+ background-color:palegreen;
+}
+#panprof
+{
+ padding-left:250px;
+ top:50px;
+ color:green;
+ font-family:saucer;
+ font-size:80px;
+}
+#panprof
+{
+ -moz-transform:skew(-23deg,0deg);
+}
+.show
+{
+ visibility:visible;
+}
+.hide
+{
+ visibility:hidden;
+}
+#myphoto
+{
+ float:left;
+ border:2px double green;
+}
+#myphoto:hover
+{
+ transform:rotate(-5deg);
+ -moz-transform:rotate(-5deg);
+ -webkit-transform:rotate(-5deg);
+ -o-transform:rotate(-5deg);
+}
+#college
+{
+ float:right;
+ border:2px double green;
+}
+#college:hover
+{
+ transform:rotate(5deg);
+ -moz-transform:rotate(5deg);
+ -webkit-transform:rotate(5deg);
+ -o-transform:rotate(5deg);
+}
+@font-face
+{
+ font-family:saucer;
+ src:url('fonts/SaucerBB.ttf');
+ font-weight:bold;
+}
+@font-face
+{
+ font-family:thebeautiful;
+ src:url('fonts/the beautiful ones.ttf');
+ font-weight:bold;
+}
+@font-face
+{
+ font-family:kgten;
+ src:url('fonts/KGTenThousandReasons.ttf');
+ font-weight:bold;
+}
+@font-face
+{
+ font-family:apple;
+ src:url('fonts/appleberry_with_cyrillic.ttf');
+ font-weight:bold;
+}
+@font-face
+{
+ font-family:janda;
+ src:url('fonts/JandaAmazingGrace.ttf');
+ font-weight:bold;
+}
+.header
+{
+ position:relative;
+ height:200px;
+ margin-top:40px;
+ margin-right:170px;
+ margin-left:170px;
+}
+#curtabhead
+{
+ position:absolute;
+ left:179px;
+ top:0px;
+ height:200px;
+ width:652px;
+ font-size:70px;
+ color:green;
+ font-family:kgten;
+ text-shadow: 2px 2px lightgray;
+} 
+#aboutmehead
+{
+ position:absolute;
+ top:40px;
+ left:100px;
+}
+#personalhead 
+{
+ position:absolute;
+ top:40px;
+ left:40px;
+}
+#academichead
+{
+ position:absolute;
+ top:0px;
+ left:80px;
+ font-size:60px;
+}
+#interesthead
+{
+ position:absolute;
+ top:40px;
+ left:100px;
+}
+#otheracthead
+{
+ position:absolute;
+ top:0px;
+ left:140px;
+ font-size:60px;
+}
+.buttons
+{
+ margin-left:200px;
+ margin-right:170px;
+ margin-top:50px;
+}
+.normalbutt
+{
+ height:40px;
+ border:2px double green;
+ color:white;
+ font-size:25px;
+ background-color:darkslategrey;
+ margin:7px;
+ border-radius:20%;
+}
+#personalbutt:hover , #aboutmebutt:hover , #interestbutt:hover , #academicbutt:hover , #otheractbutt:hover
+{
+ transform:skew(0deg,-3deg);
+ -moz-transform:skew(0deg,-3deg);
+ -o-transform:skew(0deg,-3deg);
+ -webkit-transform:skew(0deg,-3deg);
+}
+.selectedbutt
+{
+ height:40px;
+ border:2px double green;
+ color:white;
+ font-size:25px;
+ background-color:indianred;
+ margin:7px;
+ border-radius:20%;
+}
+.hoverbutt
+{
+ height:40px;
+ border:2px double green;
+ color:white;
+ font-size:25px;
+ background-color:blueviolet;
+ margin:7px;
+ border-radius:20%;
+}
+.content
+{
+ margin-top:50px;
+ margin-left:170px;
+ margin-right:170px;
+ height:850px;
+}
+#aboutmecont
+{
+ position:absolute;
+ top:557px;
+ left:177px;
+ width:994px;
+ height:430px;
+ background-color:lightgrey;
+ border:3px solid green;
+ border-radius:5%;
+}
+#whoami
+{
+ position:relative;
+ top:-10px;
+ font-size:40px;
+ font-family:apple;
+ letter-spacing:1px;
+ padding-left:30px;
+ color:darkgreen;
+}
+p
+{
+ padding-left:20px;
+ padding-right:20px;
+ text-indent:50px;
+ font-family:monospace;
+ font-style:italic;
+ font-weight:600;
+ font-size:20px;
+}
+#personalcont
+{
+ position:absolute;
+ display:inline;
+ float:left;
+ top:557px;
+ left:178px;
+ width:742px;
+ height:600px;
+ background-color:lightgrey;
+ border:3px solid green;
+ border-right:2px solid green;
+ border-radius:5%
+}
+#favourites
+{
+ position:absolute;
+ top:559px;
+ left:924px;
+ height:596px;
+ width:250px;
+ border:3px solid green;
+ border-left:1.5px solid green;
+ border-radius:5%;
+ background-color:lightgrey;
+} 
+#fav
+{
+ padding-left:40px;
+ font-size:25px;
+ font-family:apple;
+ letter-spacing:1px;
+}
+#myresume
+{
+ padding-left:20px;
+ font-size:25px;
+ font-family:apple;
+ letter-spacing:1px;
+}
+#resumelink
+{
+ position:absolute;
+ top:70px;
+ left:70px;
+ width:100px;
+ height:25px;
+ text-align:center;
+ border:2px solid black;
+ font-size:20px;
+ border-radius:15%;
+ text-decoration:none;
+ color:white;
+ background-color:green;
+}
+#resumelink:hover
+{
+ background-color:goldenrod;
+ border:2px solid green;
+ color:white;
+ transform:scale(1.2,1.2);
+ -moz-transform:scale(1.2,1.2);
+ -webkit-transform:scale(1.2,1.2);
+ -o-transform:scale(1.2,1.2);
+}
+@keyframes animatefavlink
+{
+ 0% {margin:100px;}
+ 25% {margin:110px;}
+ 50% {margin:100px;}
+ 75% {margin:90px;}
+ 100% {margin:100px;}
+}
+@-o-keyframes animatefavlink
+{
+ 0% {margin:100px;}
+ 25% {margin:110px;}
+ 50% {margin:100px;}
+ 75% {margin:90px;}
+ 100% {margin:100px;}
+}
+@-moz-keyframes animatefavlink
+{
+ 0% {margin:100px;}
+ 25% {margin:110px;}
+ 50% {margin:100px;}
+ 75% {margin:90px;}
+ 100% {margin:100px;}
+}
+@-webkit-keyframes animatefavlink
+{
+ 0% {margin:100px;}
+ 25% {margin:110px;}
+ 50% {margin:100px;}
+ 75% {margin:90px;}
+ 100% {margin:100px;}
+}
+#favlink:link
+{
+ margin:100px;
+ width:60px;
+ height:60px;
+ opacity:0.8;
+}
+#favlink:visited
+{
+ opacity:0.8;
+}
+#favlink:hover
+{
+  animation:animatefavlink 0.5s 1;
+ -o-animation:animatefavlink 0.5s 1;
+ -moz-animation:animatefavlink 0.5s 1;
+ -webkit-animation:animatefavlink 0.5s 1;
+ opacity:1.0;
+}
+#person_det
+{
+ font-size:40px;
+ font-family:apple;
+ letter-spacing:3px;
+ padding-left:30px;
+ color:darkgreen;
+}
+#personaltable
+{
+ position:absolute;
+ padding-left:50px;
+ top:60px;
+ font-size:25px;
+}
+#personaltable td
+{
+ padding-left:10px;
+ padding-right:10px;
+ padding-top:0px;
+ padding-bottom:0px;
+}
+#leftvalue
+{
+ text-align:right;
+ font-family:janda;
+}
+#rightvalue
+{
+ text-align:left;
+}
+#academiccont 
+{
+ position:absolute;
+ display:inline;
+ float:left;
+ top:557px;
+ left:178px;
+ width:742px;
+ height:600px;
+ background-color:lightgrey;
+ border:3px solid green;
+ border-right:2px solid green;
+ border-radius:5%
+}
+#academic_cont
+{
+ position:relative;
+ top:10px;
+ font-size:40px;
+ font-family:apple;
+ letter-spacing:3px;
+ padding-left:30px;
+ color:darkgreen;
+}
+#degreehead
+{ 
+ padding-left:30px;
+ font-size:20px;
+ font-family:janda;
+ font-weight:900;
+ letter-spacing:1.5px;
+} 
+#be
+{
+ text-decoration:overline;
+ font-weight:bold;
+}
+#academicleft
+{
+ padding-left:30px;
+ font-size:20px;
+ font-weight:bold;
+}
+#academicright
+{
+ font-size:18px;
+ font-weight:normal;
+ font-style:monospace;
+}
+#extraspace
+{
+ height:40px;
+}
+#academictable
+{
+ border-collapse:collapse;
+}
+#academictable th
+{
+ background-color:darkolivegreen;
+ color:white;
+ border:15px solid lightgrey;
+ border-radius:25%;
+}
+#academictable td
+{
+ padding-left:35px;
+}
+#ranks
+{
+ position:absolute;
+ top:440px;
+ left:30px;
+ font-size:20px;
+ font-family:monospace;
+ font-style:italic; 
+ font-weight:600;
+ letter-spacing:1px;
+}
+#ranks a:link
+{
+ text-decoration:none;
+}
+#ranks a:hover
+{
+ color:red;
+}
+#insidetable
+{
+ border-collapse:collapse;
+ border:2px solid blue;
+}
+#insidetable th
+{
+  background-color:royalblue;
+  color:white;
+  border:2px solid blue;
+  border-radius:0%;
+}
+#insidetable td
+{
+ background-color:powderblue;
+ border:1px solid blue;
+}
+#interestcont
+{
+ position:absolute;
+ display:inline;
+ float:left;
+ top:-3px;
+ left:-3px;
+ width:742px;
+ height:600px;
+ background-color:lightgrey;
+ border:3px solid green;
+ border-right:2px solid green;
+ border-radius:5%
+}
+#interestcont a:link
+{
+ text-decoration:none;
+}
+#interestcont a:visited
+{
+}
+#interestcont a:hover
+{
+ color:red;
+ font-size:21px;
+}
+#otheractcont
+{
+ position:absolute;
+ display:inline;
+ float:left;
+ top:-3px;
+ left:-3px;
+ width:742px;
+ height:600px;
+ background-color:lightgrey;
+ border:3px solid green;
+ border-right:2px solid green;
+ border-radius:5%
+}
+#otheractcont a:link
+{
+ text-decoration:none;
+}
+#otheractcont a:visited
+{
+}
+#otheractcont a:hover
+{
+ color:red;
+ font-size:21px;
+}
+#footer
+{  
+ position:absolute;
+ left:0px;
+ top:433px;
+ width:994px;
+ height:150px;
+ color:teal;
+ font-size:20px;
+ text-align:center;
+}
+#footerhead
+{
+ font-family:apple;
+ font-style:italic;
+ font-size:21px;
+ letter-spacing:1.5px;
+ color:darkgreen;
+}
+#footer a:link
+{
+ text-decoration:none;
+ font-size:18px;
+ color:darkmagenta;
+}
+#footer a:visited
+{
+ font-size:18px;
+ color:darkmagenta;
+}
+#footer a:hover
+{
+ color:red;
+ font-size:18px;
+}
+#footertable td
+{
+ width:250px;
+}
+#final
+{
+ font-family:apple;
+ letter-spacing:1.3px;
+ font-size:15px;
+ color:black;
+}
+#final a:link
+{
+ color:darkred;
+}
+#final a:visited
+{
+ color:darkred;
+}
+#final a:hover
+{
+ font-size:20px;
+ color:indianred;
+}
+#footer img
+{
+ opacity:0.8;
+}
+#footer img:hover
+{
+ transform:rotate(5deg);
+ -o-transform:rotate(5deg);
+ -webkit-transform:rotate(5deg);
+ -moz-transform:rotate(5deg);
+ opacity:1.0;
+}
+ 
+#footer2
+{  
+ position:absolute;
+ left:0px;
+ top:162px;
+ width:994px;
+ height:150px; 
+ font-size:20px;
+ color:teal;
+ text-align:center;
+}
+#footer2 a:link
+{
+ text-decoration:none;
+ font-size:18px;
+ color:darkmagenta;
+}
+#footer2 a:visited
+{
+ font-size:18px;
+ color:darkmagenta;
+}
+#footer2 a:hover
+{
+ color:red;
+ font-size:18px;
+}
+#footer2 img
+{
+ opacity:0.8;
+}
+#footer2 img:hover
+{
+ transform:rotate(5deg);
+ -o-transform:rotate(5deg);
+ -webkit-transform:rotate(5deg);
+ -moz-transform:rotate(5deg);
+ opacity:1.0;
+}
+#leftarrow
+{
+ position:absolute;
+ top:-400px;
+ left:-60px;
+ opacity:1.0;
+}
+#rightarrow
+{
+ position:absolute;
+ top:-400px;
+ left:1000px;
+ opacity:1.0;
+}
+#arrows img
+{
+ opacity:0.4;
+}
+#arrows img:hover
+{
+ opacity:1.0;
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+ -webkit-transform:rotate(0deg);
+ -o-transform:rotate(0deg);
+}

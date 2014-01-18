@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/myprofile.css">
+<script type="text/javascript" src="assets/myprofile.js"></script>
+<title>Pandian</title>
+</head>
+<body>
+<h1 id="panprof">Pandian's profile</h1>
+<div class="header">
+<img id="myphoto" src="assets/images/IMG_20120427_234832.jpg" width="175px" height="196px">
+<span id="curtabhead">
+<span id="aboutmehead" class="show"> About me !</span>
+<span id="personalhead" class="hide"> Personal details </span>
+<span id="academichead" class="hide"> Academic achievements</span>
+<span id="interesthead" class="hide"> My interests </span>
+<span id="otheracthead" class="hide"> Other <br>activities </span>
+</span>
+<img id="college" src="assets/images/college.jpg" width="175px" height="196px">
+</div>
+
+<div class="buttons">
+<input id="aboutmebutt" class="selectedbutt" type="button" name="aboutmebutt" value="About me" onmouseover="hoverfunction(this.id)" onmouseout="previousstate()" onclick="clickfunction(this.id)"/>
+<input id="personalbutt" class="normalbutt" type="button" name="personalbutt" value="Personal details" onmouseover="hoverfunction(this.id)" onmouseout="previousstate()" onclick="clickfunction(this.id)"/>
+<input id="academicbutt" class="normalbutt" type="button" name="academicbutt" value="Academics" onmouseover="hoverfunction(this.id)" onmouseout="previousstate()" onclick="clickfunction(this.id)"/>
+<input id="interestbutt" class="normalbutt" type="button" name="interestbutt" value="Interests" onmouseover="hoverfunction(this.id)" onmouseout="previousstate()" onclick="clickfunction(this.id)"/>
+<input id="otheractbutt" class="normalbutt" type="button" name="otheractbutt" value="Other activities" onmouseover="hoverfunction(this.id)" onmouseout="previousstate()" onclick="clickfunction(this.id)"/>
+</div>
+<div class="content">
+
+
+<div id="aboutmecont" class="show">
+<br>
+<span id="whoami">who_am_i() ??</span>
+<p>Hi ! I am Pandian, a 19 years old boy , doing my bachelors in Computer Science and Engineering in College of Engineering, Guindy, Anna University . 
+I am a native of Thoothukudi, the pearl city of Tamil Nadu. </p>
+<p>I love doing math and programming especially in C and C++. I enjoy studying new algorithms and methods in the field of programming .    </p>
+<p>I had always wanted to become a good web designer which I am currently working for. And, in the process,  I designed this page with the basics of html5 and css3 . Hoping to become a good web designer soon .</p>
+<p>Besides all these technical stuff, I love solving Rubik's cube, spending time on facebook etc.</p> 
+</div>
+
+
+<div id="personalcont" class="hide">
+<span id="person_det">personal_details():</span>
+<br><br>
+<table id="personaltable" border="0">
+<tr>
+<td id="leftvalue">Name</td>
+<td>:</td>
+<td id="rightvalue">R.Pandian</td>
+</tr>
+<tr>
+<td id="leftvalue">Father's name </td>
+<td>:</td>
+<td id="rightvalue">S.Raju</td>
+</tr>
+
+<tr>
+<td id="leftvalue">Date of birth </td>
+<td>:</td>
+<td id="rightvalue">30.05.1993</td>
+</tr>
+
+<tr>
+<td id="leftvalue">Nationality </td>
+<td>:</td>
+<td id="rightvalue">Indian</td>
+</tr>
+
+<tr>
+<td id="leftvalue">Home town </td>
+<td>:</td>
+<td id="rightvalue">Thoothukudi</td>
+</tr>
+
+<tr>
+<td id="leftvalue">Present address </td>
+<td>:</td>
+<td id="rightvalue">CEG hostels, Anna University, Chennai-25.</td>
+</tr>
+
+<tr>
+<td id="leftvalue">Permanent address </td>
+<td>:</td>
+<td id="rightvalue">62B, Amman koil street, Bryant nagar, Thoothukudi-8.</td>
+</tr>
+
+<tr>
+<td id="leftvalue">Mobile number </td>
+<td>:</td>
+<td id="rightvalue">+919486088421</td>
+</tr>
+
+<tr>
+<td id="leftvalue">email id </td>
+<td>:</td>
+<td id="rightvalue">pandian4mail@gmail.com</td>
+</tr>
+</table>
+</div>
+
+<span id="favourites" class="hide">
+<br>
+<span id="myresume">Complete resume</span>
+<br>
+<a id="resumelink" href="assets/resume/Pandian_Resume.pdf" target="_blank">Download</a>
+<br><br><br>
+<span id="fav">My favourites !</span>
+<br><br>
+<a id="favlink" href="http://www.facebook.com/pandian4mail" target="_blank" ><img src="assets/images/facebook_logo3.png" width="60px" height="60px"></a>
+<br><br><a id="favlink" href="http://www.spoj.pl/users/codingcapo" target="_blank" ><img src="assets/images/spoj.jpg" width="60px" height="60px"></a>
+<br><br><a id="favlink" href="http://www.cegbloggerpandian.blogspot.com" target="_blank" ><img src="assets/images/blogspot.png" width="60px" height="60px"></a>
+<br><br><a id="favlink" href="http://www.w3schools.com" target="_blank" ><img src="assets/images/w3school.png" width="60px" height="60px"></a>
+<br><br><a id="favlink" href="http://ws2.binghamton.edu/fridrich/system.html" target="_blank" ><img src="assets/images/rubik.png" width="60px" height="60px"></a>
+</span>
+
+
+
+<div id="academiccont" class="hide">
+<span id="academic_cont">academic_records():</span>
+<div id="extraspace"></div>
+<table border="0" id="academictable">
+<tr>
+<th>
+<span id="degreehead">
+<span id="be">B.E</span> [ CSE ] :
+</span>
+<br>
+<span id="academicleft">University : </span>
+<span id="academicright">College of Engineering,Guindy</span>
+</th>
+<th>
+<span id="degreehead">XII  : </span>
+<br><span id="academicleft">School : </span>
+<span id="academicright">Sakthi Vinayakar Hindu Vidyalaya</span>
+</th>
+<th>
+<span id="degreehead">X (CBSE) : </span>
+<br><span id="academicleft">School : </span>
+<span id="academicright">Sakthi Vinayakar Hindu Vidyalaya</span>
+</th>
+</tr>
+<tr>
+<td>
+<table border="1" id="insidetable">
+<tr>
+<th>Semester</th>
+<th>GPA</th>
+</tr>
+<tr>
+<td>1</td>
+<td>9.74</td>
+</tr>
+<tr>
+<td>2</td>
+<td>9.74</td>
+</tr>
+<td>3</td>
+<td>9.46</td>
+</tr>
+<tr>
+<td>4</td>
+<td>9.44</td>
+</tr>
+<tr>
+<td>CGPA</td>
+<td>9.61</td>
+</tr>
+</table>
+</td>
+
+<td>
+<table border="1" id="insidetable">
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>Tamil</td>
+<td>96</td>
+</tr>
+<tr>
+<td>English</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Maths</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Science</td>
+<td>98</td>
+</tr>
+<tr>
+<td>Social</td>
+<td>99</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>478/500</td>
+</tr>
+</table>
+</td>
+
+<td>
+<table border="1" id="insidetable">
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>Tamil</td>
+<td>194</td>
+</tr>
+<tr>
+<td>English</td>
+<td>193</td>
+</tr>
+<tr>
+<td>Maths</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Physics</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Chemistry</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Computer</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>1187/1200</td>
+</tr>
+</td>
+</tr>
+</table>
+</div>
+<ul id="ranks">
+ <li>Secured school first in X CBSE board examination.
+ <li>Secured <a href="http://www.topperstalk.com/pandian-2010.asp" target="_blank">state first</a> rank in Tamil Nadu State board XII examination.
+</ul>
+
+
+<div id="interestcont" class="hide">
+<span id="academic_cont">my_interests() :</span>
+<br><br><p>I like spending time on social networking sites, particularly <a href="http://www.facebook.com" target="_blank">facebook</a> which has drawn attention of people
+worldwide. My facebook profile is : <a href="http://www.facebook.com/pandian4mail" target="_blank">pandian4mail</a>.</p>
+<p>An other all time interest of mine is solving problems on <a href="http://www.spoj.pl" target="_blank">SPOJ</a> and <a href="http://www.topcoder.com/tc" target="_blank">Topcoder</a>. I love solving problems because whenever 
+I solve a problem , I learn some new algorithms . My spoj account is  <a href="http://www.spoj.pl/users/codingcapo" target="_blank">codingcapo</a> and my topcoder handle is <a href="http://community.topcoder.com/tc?module=MemberProfile&cr=23039015" target="_blank">codingcapo</a>  .</p>
+<p>And then the <a href="http://en.wikipedia.org/wiki/Rubik%27s_Cube" target="_blank">Rubik's cube</a> which is actually an awesome invention . I love solving it many times a day. It makes me feel better . I am presently trying speedcubing techniques given by <a href="http://ws2.binghamton.edu/fridrich/system.html" target="_blank" >Fridrich</a> which is one of the fastest cube solving techniques.</p>
+<p>Besides these, my other hobbies are watching television, listening to music etc.
+</div>
+
+<div id="otheractcont" class="hide">
+<span id="academic_cont">other_activities() :</span>
+<br><br>
+<p>Besides all these academic and technical stuff, I am also an active volunteer of Kurukshetra , aBaCUS and CSAU which are part of our college.</p>
+<p><a href="http://kurukshetra.org.in" target="_blank">Kurukshetra</a>, the annual techno-management festival of our college is one of the biggest of its kind in India. I have been the logistics co-ordinator of Kurukshetra for the past two years.</p>
+<p><a href="http://abacus.org.in" target="_blank">aBaCUS</a> is the annual technical symposium of department of CSE of our college. I have been a part of it for the past two years.</p>
+<p><a href="http://csau.in" target="_blank">CSAU</a> is the Computer Society of Anna University, the oldest club of CEG. I am an active member of CSAU and presently, executive member of tech team,CSAU.</p>
+<p>Besides these, I am a part of CEG WEB DEVELOPERS, currently developing a website for CEG TECH FORUM.</p>
+</div>
+<div id="footer" class="show">
+<br>
+<table border="0" id="footertable">
+<tr>
+<td><span id="footerhead">Contact:</span><br>College of Engineering, Guindy Hostels,<br>Anna University,<br>Chennai-25.</td>
+<td><span id="footerhead">Mail me at : </span> <a href="mailto:pandian4mail@gmail.com" target="_blank">pandian4mail@gmail.com</a><br><span id="footerhead">Call me at : </span><br>+919486088421</td>
+<td><span id="footerhead">Current project : </span><br>Designing website for <a href="http://www.linkedin.com/company/ceg-tech-forum" target="_blank">CTF</a>, CEG TECH FORUM.</td>
+<td><br><span id="footerhead">Get connected : </span><br><br><a href="http://www.facebook.com/pandian4mail" target="_blank"><img src="assets/images/facebook_logo3.png" width="40px" height="40px"></a></td>
+</tr>
+</table>
+<br>
+<span id="final">Designed by <a href="http://www.facebook.com/pandian4mail" target="_blank">Pandian</a>, Inspired by <a href="http://shibulijack.in" target="_blank">Shibu</a>.</span
+</div>
+<div id="footer2" class="hide">
+<br>
+<table border="0" id="footertable">
+<tr>
+<td><span id="footerhead">Contact:</span><br>College of Engineering, Guindy Hostels,<br>Anna University,<br>Chennai-25.</td>
+<td><span id="footerhead">Mail me at : </span> <a href="mailto:pandian4mail@gmail.com" target="_blank">pandian4mail@gmail.com</a><br><span id="footerhead">Call me at : </span><br>+919486088421</td>
+<td><span id="footerhead">Current project : </span><br>Designing website for <a href="http://www.linkedin.com/company/ceg-tech-forum" target="_blank">CTF</a>, CEG TECH FORUM.</td>
+<td><br><span id="footerhead">Get connected : </span><br><br><a href="http://www.facebook.com/pandian4mail" target="_blank"><img src="assets/images/facebook_logo3.png" width="50px" height="50px"></a></td>
+</tr>
+</table>
+<br>
+<span id="final">Designed by <a href="http://www.facebook.com/pandian4mail" target="_blank">Pandian</a>, Inspired by <a href="http://shibulijack.in" target="_blank">Shibu</a>.</span
+</div>
+<span id="arrows">
+<img id="leftarrow" class="hide" src="assets/images/arrowgreen3left.jpg" width="50px" height="100px" onclick="leftclickfunc()">
+<img id="rightarrow" class="show" src="assets/images/arrowgreen3right.jpg" width="50px" height="100px" onclick="rightclickfunc()">
+</span>
+</body>
